@@ -1,0 +1,25 @@
+{
+  "name": "debuggable-webdriverio",
+  "version": "0.0.1",
+  "description": "DeAsync wrapper of webdriverio for easier test development (similar to wdio-sync and webdriver-sync)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/synaptiko/debuggable-webdriverio.git"
+  },
+  "author": "Jiří Prokop <jprokop@synaptiko.cz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/synaptiko/debuggable-webdriverio/issues"
+  },
+  "homepage": "https://github.com/synaptiko/debuggable-webdriverio#readme",
+  "dependencies": {
+    "chromedriver": "^2.27.2",
+    "deasync": "^0.1.9",
+    "selenium-standalone": "^6.0.0",
+    "webdriverio": "^4.6.2"
+  }
+}
